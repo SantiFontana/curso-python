@@ -28,3 +28,18 @@ elif ingreso_mensual > 200:
     
 else:
     print("Sos pobre")
+
+
+# otro ejemplo sobre temperatura
+temperatura = 10
+
+if temperatura > 30:
+    print("Cuidado, hace muchisimo calor")
+elif temperatura > 20:
+    print("Hace buena temperatura")
+elif temperatura > 0:
+    print("Hace frio")
+elif temperatura <= 0:
+    print("QUE FRIO")
+else:
+    print("Dato no valido")
