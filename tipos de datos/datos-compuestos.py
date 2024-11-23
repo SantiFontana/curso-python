@@ -1,6 +1,6 @@
-lista = ["Santiago Fontana", "Fontana", True, 1.84]
+lista = ["Santiago", "Fontana", True, 1.84]
 
-tupla = ("Santiago Fontana", "Fontana", True, 1.84)
+tupla = ("Santiago", "Fontana", True, 1.84)
 
 lista [3] = "Maquinola"
 
@@ -15,5 +15,7 @@ diccionario = {
     "nombre" : "Santiago",
     "Edad" : "20",
 }
+
+print(lista)
 
 print(diccionario["Edad"])

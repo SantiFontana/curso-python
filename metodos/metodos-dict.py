@@ -4,6 +4,9 @@ diccionario = {
     "edad" : "20"
 }
 
+#agrega un elemento al diccionario
+diccionario["pais"] = "Argentina"
+
 #devuelve las claves (también nos sirve para iterar)
 claves = diccionario.keys()
 
